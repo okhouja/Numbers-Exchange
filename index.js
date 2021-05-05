@@ -6,6 +6,14 @@ function registerUserValue(e) {
   console.log(e.target);
   userNumber = e.target.value;
 }
+
+// var binary = "101101";
+// var decimal = parseInt(binary, 2);
+// alert(decimal);
+function converter2() {
+  return parseInt(userNumber, 2);
+}
+console.log(converter2);
 function convert() {
   let = currentConverterValue;
   console.log(converter.value);
