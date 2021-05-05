@@ -5,30 +5,24 @@ const converter = document.querySelector("#converter");
 function registerUserValue(e) {
   console.log(e.target);
   userNumber = e.target.value;
+  convert();
 }
-
-// var binary = "101101";
-// var decimal = parseInt(binary, 2);
-// alert(decimal);
-function converter2() {
-  return parseInt(userNumber, 2);
-}
-console.log(converter2);
 function convert() {
-  let = currentConverterValue;
+  let currentConverterValue;
+
   console.log(converter.value);
-  //   let binary = "110100";
+  console.log(userNumber);
   switch (converter.value) {
     case "binary":
-      currentConverterValue = parseInt(userNumber, 2);
+      currentConverterValue = parseInt(userNumber).toString(2);
       break;
-    case "decimal":
-      currentConverterValue = userNumber.toString(16);
+    case "hexa":
+      currentConverterValue = parseInt(userNumber).toString(16);
       break;
     default:
       currentConverterValue = 1;
   }
-  result.innerHTML = `${currentConverterValue * parseInt(userNumber)}`;
+  result.innerHTML = currentConverterValue;
 }
 // console.log(convert);
 

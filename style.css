@@ -10,8 +10,8 @@ body {
   flex-direction: column;
   height: 90vh;
   width: 100vw;
-  background-color: black;
-  color: white;
+  /* background-color: black;
+  color: white;*/
 }
 
 main {
