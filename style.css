@@ -4,16 +4,37 @@
   box-sizing: border-box;
 }
 body {
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 90vh;
   width: 100vw;
-  /* background-color: black;
-  color: white;*/
+  background-color: black;
+  color: white;
 }
-
+h1 {
+  padding-bottom: 1.5rem;
+}
 main {
   font-family: "Itim", cursive;
+}
+input {
+  padding-left: 0.2rem;
+  height: 2rem;
+  border: none;
+  border-radius: 0%;
+  font-size: 1rem;
+}
+#converter {
+  height: 2rem;
+  font-size: 1rem;
+}
+.result {
+  width: 80%;
+  text-align: center;
+  overflow-wrap: break-word;
+  padding-top: 1.5rem;
+  font-size: 2rem;
 }
