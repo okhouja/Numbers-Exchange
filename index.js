@@ -9,13 +9,13 @@ function registerUserValue(e) {
 function convert() {
   let = currentConverterValue;
   console.log(converter.value);
-  let binary = "110100";
+  //   let binary = "110100";
   switch (converter.value) {
     case "binary":
-      currentConverterValue = parseInt(binary, 2);
+      currentConverterValue = parseInt(userNumber, 2);
       break;
     case "decimal":
-      currentConverterValue = userInput.toString(16);
+      currentConverterValue = userNumber.toString(16);
       break;
     default:
       currentConverterValue = 1;
