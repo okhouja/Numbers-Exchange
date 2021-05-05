@@ -16,6 +16,9 @@ function convert() {
     case "binary":
       currentConverterValue = parseInt(userNumber).toString(2);
       break;
+    case "octal":
+      currentConverterValue = parseInt(userNumber).toString(8);
+      break;
     case "hexa":
       currentConverterValue = parseInt(userNumber).toString(16);
       break;
